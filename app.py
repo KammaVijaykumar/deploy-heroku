@@ -7,9 +7,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.sparse import hstack
 
 # Flask utils
-from flask import Flask, redirect, url_for, request, render_template
-from werkzeug.utils import secure_filename
-from gevent.pywsgi import WSGIServer
+# Flask utils
+from flask import Flask, request, render_template
 from flask import jsonify
 
 # load the xgboost model
